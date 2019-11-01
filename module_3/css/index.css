@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+   
+} 
+
+p {
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+       
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+ul {
+    text-align: center;
+    margin-top: 77px;
+    
+}
+
+.menu__item {
+    text-align: center;
+    display: inline;
+    margin-right: 110px;
+    font-size: 14px;
+       
+}
+
+a {
+    color: #626262;
+    text-decoration: none;
+    /* text-align: center; */
+    margin-bottom: 110px; 
+    text-transform: uppercase;
+    
+}
+
+.navigation li:last-child {
+    margin-right: 0;
+}
+
+.menu__item a:hover {
+    color: #03a9f4;
+}
+
+.content {
+    font-size: 0;
+}
+
+.content__wrapper {
+    width: 420px;
+    text-align: center;
+
+}
+
+.card {
+    display: inline-block;
+    margin-bottom: 133px;
+    margin: 30px;
+
+}
+
+.note {
+    margin-top: 32px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-family: ubuntu;
+    
+}
+
+.title {
+    margin-top: 30px;
+    color: #626262;
+}
+
+.description {
+    margin-top: 40px;
+    color: #626262;
+}
+
+.cards li:nth-child(n + 5) {
+    margin-bottom: 0;
+}
+
+.card:nth-child(even) {
+    margin-right: 0;
+    margin-left: 0;
+
+}
+
+.button {
+    margin: 90px auto 22px;
+    text-align: center;
+}   
+
+.button__item {
+    padding: 27px;
+}

@@ -87,7 +87,7 @@ li.menu_navbar {
 
 .title {
     text-align: center;
-    padding: 111px;
+    padding: 105px;
     font-weight: 700;
     font-size: 48px;
     font-family: 'Roboto', sans-serif; 
@@ -96,13 +96,19 @@ li.menu_navbar {
 
 }
 
-.clearfix:after {
+.underline:after {
     content: "";
     display: block;
     width: 165px;
     height: 9px;
     background-color: #1abc9c;
     margin: 32px auto 0;    
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .content {
@@ -125,7 +131,7 @@ li.menu_navbar {
     width: 255px;
     height: 282px;
     box-sizing: border-box;
-    text-align: 0;
+    background-color: #e9f0fd;
 
 }
 
@@ -151,14 +157,7 @@ li.menu_navbar {
     text-transform: uppercase;
 }
 
-.price {
-    font-size: 18px;
-    background-color: rgb(255,255,255,);
-    color: #f80808;
-    width: 54px;
-    font-family: 'Roboto', sans-serif;
-    float: right;
-}
+
 
 .price, 
 .categories  {
@@ -168,12 +167,23 @@ li.menu_navbar {
     box-sizing: border-box;
 }
 
+.price {
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.44);
+    color: rgb(255, 255, 255);
+    width: 54px;
+    height: 41px;
+    font-family: 'Roboto', sans-serif;
+    float: right;
+
+}
+
 .card:hover .hover {
     background: #1abc9c;
 }
 
 .information {
-    margin: 80px auto 0;
+    margin: 81px auto 0;
     text-align: center;
 }
 
@@ -215,16 +225,19 @@ li.menu_navbar {
 }
 
 .link {
+     margin: 19px auto 45px;
+    text-align: left;
+    
+}
+
+.button__item {
     text-decoration: none;
-    margin-top: 19px;
-    margin-bottom: 45px;
     background-color: #4ec6ab;
     color: #e7f7f4;
     width: 160px;
     height: 51px;
-    padding: 17px;
     border-radius: 5px;
-    float: left;
+    
     font-family: 'Open Sans', sans-serif;
 
 }
